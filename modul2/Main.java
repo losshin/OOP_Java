@@ -88,20 +88,3 @@ public class Main {
         }
     }    
 }
-
-class Vehicle {
-    // property
-    int tires;
-    String merk;
-    String warna;
-    String transmission;
-    
-    // method
-    void bergerak() {
-        System.out.println("Laju...");
-    }
-    
-    void berhenti() {
-        System.out.println("Rem!!!");
-    }
-}
