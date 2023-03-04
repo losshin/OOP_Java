@@ -55,7 +55,7 @@ public class Main extends Characteristics{
         characteristics.machineType = br.readLine();
         System.out.print("Jarak Tempuh           : ");
         characteristics.combatRange = Integer.parseInt(br.readLine());
-        System.out.print("Jangakuan Radar        : ");
+        System.out.print("Jangkauan Radar        : ");
         characteristics.radarRange = Integer.parseInt(br.readLine());
         System.out.print("Jumlah Senjata         : ");
         characteristics.numberOfWeapon = Integer.parseInt(br.readLine());
