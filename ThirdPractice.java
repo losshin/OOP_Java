@@ -1,28 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package matakuliah;
 
 import java.util.Scanner;
 
-/**
- *
- * @author rag
- */
 public class ThirdPractice {
     public static void main(String[] args){
         System.out.println("\nTugas 2");
         System.out.println("\n1. Penebak tanggal ULTAH");
         first();
-        System.out.println("\n2. Berat Massa Badan (IMB)");
+        System.out.println("\n2. Berat Massa Tubuh (IMT)");
         second();
     }
     
     private static void first(){
         
         Scanner scan = new Scanner(System.in);
-
+        
         int i = 0; int x = 0; int y = 0; int z = 0;
         int[] Set1 = new int[]{1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31};
         int[] Set2 = new int[]{2,3,6,7,10,11,14,15,18,19,22,23,26,27,30,31};
@@ -86,9 +78,9 @@ public class ThirdPractice {
         System.out.print("Masukkan tinggi badan : ");
         double tinggiBadan = scan.nextDouble() * 0.0254;
 
-        double imb = beratBadan / (tinggiBadan * tinggiBadan);
+        double imt = beratBadan / (tinggiBadan * tinggiBadan);
 
-        System.out.printf("IMB Anda adalah %.2f\n", imb);
+        System.out.printf("IMT Anda adalah %.2f\n", imt);
 
         if (imb < 16) {
             System.out.println("Sangat Kurus");
