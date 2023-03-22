@@ -77,7 +77,6 @@ class MilitaryAircraft {
 
 // childClass Bomber Aircraft
 class BomberAircraft extends MilitaryAircraft {    
-    private int bombCapasity;
     public BomberAircraft(String namePlane, String Country, String machineType, String aircraftType, int combatRange, int numberOfWeapon, int radarRange, int bombCapasity) {
         this.setName(namePlane);
         this.setCountryOfOrigin(Country);
@@ -106,7 +105,6 @@ class FighterAircraft extends MilitaryAircraft {
 
 // childClass AWACS Aircraft
 class AwacsAircraft extends MilitaryAircraft {
-    private int radarRange = super.radarRange;
     public AwacsAircraft(String namePlane, String Country, String machineType, String aircraftType, int combatRange, int numberOfWeapon, int radarRange, int bombCapasity) {
         this.setName(namePlane);
         this.setCountryOfOrigin(Country);
