@@ -104,7 +104,7 @@ public class Main{
         } else {
             for(int i = 0; i < aircraft.size(); i++) {
                 System.out.println("\nID              : " + (i+1));
-                System.out.println("Nama            : " + aircraft.get(i).getName());
+                System.out.println("Nama            : " + aircraft.get(i).name);
                 System.out.println("Jenis           : " + aircraft.get(i).getAircraftType());
                 System.out.println("Asal Negara     : " + aircraft.get(i).getCountryOfOrigin());            
                 System.out.println("Jenis Mesin     : " + aircraft.get(i).getMachineType());            
